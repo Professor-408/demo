@@ -6,5 +6,7 @@ RUN apt-get install python3-pip
 
 COPY . .
 
+WORKDIR /myapp
+
 CMD ["python3", "myapp.py"]
 
